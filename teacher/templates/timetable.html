@@ -110,16 +110,14 @@ Sidebar start
                         </a>
 
                     </li>
-
-
                 </ul>
             </div>
         </div>
-        <!--**********************************
+<!--**********************************
 Sidebar end
 ***********************************-->
 
-        <!--**********************************
+<!--**********************************
 Content body start
 ***********************************-->
         <div class="content-body">
@@ -130,24 +128,174 @@ Content body start
                     <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="card">
                             <div class="card-header">
-                                <h4 class="card-title">Assignment</h4>
+                                <h2 class="card-title"><b>Time Table</b></h2>
                             </div>
-                            <div class="card-body">
-                                <div class="table-responsive recentOrderTable">
-                                    <table class="table verticle-middle table-responsive-md">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">No.</th>
-                                                <th scope="col">Name</th>
-                                                <th scope="col">Subject</th>
-                                                <th scope="col">Date Of Submission</th>
-                                                <th scope="col">Status</th>
-                                            </tr>
-                                        </thead>
+                                <br>
+                                <div class="card-body">
+                                  <h6>Lunch Time:</h6>
+                                    <form action=views.slot method="post">
+                                      <select>
+                                          <option value="12:20-01:10">12:20-01:10</option>
+                                          <option value="01:10-02:00">01:10-02:00</option>
+                                          <input type="submit" />
+                                      </select>
+                                    </form>
+                                </div>
 
-                                    </table>
+                                <div class="card-body">
+                                <div class="table-responsive recentOrderTable">
+                                  <table border="3" cellspacing="0" align="center">
+                                      <tr>
+                                          <td align="center" height="50" width="100"><br>
+                                              <b>Day/Period</b></br>
+                                          </td>
+                                          <td align="center" height="50" width="100">
+                                              <b>1<br>8:50-9:40</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>2<br>9:40-10:30</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>10:30-10:40</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>3<br>10:40-11:30</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>4<br>11:30-12:20</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>5<br>12:20-1:10</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>1:10-2:00</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>6<br>2:00-2:50</b>
+                                          </td>
+                                          <td align="center" height="50"
+                                              width="100">
+                                              <b>7<br>2:50-3:40</b>
+                                            </td>
+                                            <td align="center" height="50"
+                                                width="100">
+                                                <b>8<br>3:40-4:30</b>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" height="50">
+                                              <b>Monday</b>
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td rowspan="6" align="center" height="50">
+                                            <h5>B<br>R<br>E<br>A<br>K</h5>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td rowspan="6" align="center" height="50">
+                                            <h5>L<br>U<br>N<br>C<br>H</h5>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+
+                                          </td>
+                                          <td colspan="1" align="center"
+                                              height="50"> </td>
+                                          <td align="center" height="50"> </td>
+
+                                      </tr>
+                                      <tr>
+                                          <td align="center" height="50">
+                                              <b>Tuesday</b>
+                                          </td>
+                                          <td colspan="1" align="center" height="50">
+
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" height="50">
+                                              <b>Wednesday</b>
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td colspan="1" align="center"
+                                              height="50">
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" height="50">
+                                              <b>Thursday</b>
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td colspan="1" align="center"
+                                              height="50">
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" height="50">
+                                              <b>Friday</b>
+                                          </td>
+                                          <td colspan="1" align="center"
+                                              height="50">
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                      </tr>
+                                      <tr>
+                                          <td align="center" height="50">
+                                              <b>Saturday</b>
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td align="center" height="50"> </td>
+                                          <td colspan="1" align="center"
+                                              height="50">
+                                          </td>
+                                          <td align="center" height="50"> </td>
+                                      </tr>
+                                  </table>
                                 </div>
                             </div>
+
+
                         </div>
                     </div>
                 </div>
